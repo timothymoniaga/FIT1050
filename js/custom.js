@@ -5,11 +5,12 @@
 
     // HERO SLIDE
     $('.hero-slide').backstretch([
-      "images/slideshow/ai-generated-pink-textile.jpg",
-      "images/slideshow/ai-generated-dress.jpg", 
+      "images/slideshow/green-textile.jpg",
+      //"images/slideshow/ai-generated-dress.jpg", 
+      "images/slideshow/dress-beach.jpg",
       // "images/slideshow/wood-sideboard-living-room-interior-with-copy-space.jpg",
       // "images/slideshow/leaf-textile.jpg",
-      "images/slideshow/AI-Generated.jpg"
+      "images/slideshow/jewelery-girl.jpg"
     ],  {duration: 2000, fade: 750});
 
     // REVIEWS CAROUSEL

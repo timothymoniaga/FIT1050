@@ -24,6 +24,9 @@
         <link href="css/owl.carousel.min.css" rel="stylesheet">
 
         <link href="css/tooplate-moso-interior.css" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" rel="stylesheet">
+
         
 <!--
 
@@ -90,6 +93,8 @@ Bootstrap 5 HTML CSS Template
                 </div>
             </div>
         </nav>
+
+        <div id="notyf"></div>
 
         <main>
 
@@ -721,6 +726,28 @@ Bootstrap 5 HTML CSS Template
         <script src="js/jquery.backstretch.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/custom.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const notyf = new Notyf({
+                    duration: 0,
+                    position: {
+                        x: 'right',
+                        y: 'center',
+                    },
+                });
+                
+                notyf.open({
+                    type: 'custom',
+                    background: '#FF6161',
+                    icon: false,
+                    message: 'FREE SHIPPING AUSTRALIA WIDE!',
+                    dismissible: true,
+                });
+            });
+        </script>
+        
 
     </body>
 </html>
